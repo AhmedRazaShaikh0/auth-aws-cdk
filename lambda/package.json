@@ -1,0 +1,16 @@
+{
+    "name": "reviews-lambda",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc && cd lambda && npm install && npm run build && cd .."
+    },
+    "dependencies": {
+        "aws-lambda": "^1.0.7",
+        "aws-sdk": "^2.1005.0"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.93",
+        "typescript": "^4.4"
+    }
+}
