@@ -63,7 +63,7 @@ export class AuthcdkStack extends Stack {
       }
     })
 
-    // Create a Cognito authorizer for the API
+    // Creates Cognito authorizers for the API
     const jackAuthorizer = new apigwAuthorizers.HttpUserPoolAuthorizer('JackAuthorizer', jackUserPool);
     const peterAuthorizer = new apigwAuthorizers.HttpUserPoolAuthorizer('PeterAuthorizer', peterUserPool);
 
