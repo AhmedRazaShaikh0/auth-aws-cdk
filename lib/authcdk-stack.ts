@@ -1,4 +1,4 @@
-import { Duration, Stack, StackProps } from 'aws-cdk-lib';
+import {  Stack, StackProps } from 'aws-cdk-lib';
 import * as apigwv2 from "@aws-cdk/aws-apigatewayv2-alpha";
 import * as apigwv2_integrations from "@aws-cdk/aws-apigatewayv2-integrations-alpha";
 import * as apigwAuthorizers from '@aws-cdk/aws-apigatewayv2-authorizers-alpha';
